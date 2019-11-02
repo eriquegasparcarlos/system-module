@@ -1,0 +1,27 @@
+{
+    "name": "eriquegasparcarlos/system-module",
+    "type": "laravel-module",
+    "description": "Laravel Tenancy - System",
+    "authors": [
+        {
+            "name": "Carlos Erique Gaspar",
+            "email": "eriquegasparcarlos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\System\\Providers\\SystemServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\System\\": ""
+        }
+    }
+}
